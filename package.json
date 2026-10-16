@@ -1,0 +1,27 @@
+{
+  "name": "wizards-chess-cathedral-evolution",
+  "version": "2.0.0",
+  "description": "Wizard's Chess — Cathedral Evolution: Next.js Turbopack 3D Gothic Chess Platform, Cathedral Ultra, X-Ray Tactical Intelligence & Parallel Self-Play Learning Lab",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "test": "node --test src/tests/suite.test.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chess.js": "^1.0.0-beta.8",
+    "next": "^15.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.128.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@types/three": "^0.128.0",
+    "typescript": "^5.4.5"
+  }
+}
